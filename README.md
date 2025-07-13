@@ -46,7 +46,7 @@ Welcome to **PIXY**, the ultimate Netflix-inspired streaming web app where you c
 ---
 
 ## 📂 Folder Structure (Example)
-
+```
 PIXY/
 │
 ├── frontend/
@@ -68,7 +68,7 @@ PIXY/
 │   └── server.js             # Main backend entry point
 │
 └── README.md
-
+```
 
 
 ---
