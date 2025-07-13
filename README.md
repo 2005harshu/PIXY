@@ -50,24 +50,25 @@ Welcome to **PIXY**, the ultimate Netflix-inspired streaming web app where you c
 PIXY/
 │
 ├── frontend/
-│ └── src/
-│   ├── components/ # Reusable UI components
-│   ├── hooks/ # Custom React hooks
-│   ├── pages/ # Application pages (Home, Login, etc.)
-│   ├── store/ # Global state management (e.g., context/redux/zustand)
-│   └── utils/ # Helper functions
+│   └── src/
+│       ├── components/       # Reusable UI components (e.g., Navbar, Card, Slider)
+│       ├── hooks/            # Custom React hooks
+│       ├── pages/            # Application pages (e.g., Home, Login, Details)
+│       ├── store/            # Global state (e.g., Redux, Context API, Zustand)
+│       └── utils/            # Helper functions and constants
 │
 ├── backend/
-│ ├── config/ # Environment configs & DB connection setup
-│ ├── controllers/ # Logic for handling requests
-│ ├── middleware/ # Auth, error handling, etc.
-│ ├── models/ # Mongoose schemas
-│ ├── routes/ # API routes
-│ ├── services/ # Business logic or third-party service handlers
-│ ├── utils/ # Reusable backend utilities
-│ └── server.js # Entry point for backend server
+│   ├── config/               # DB configuration and environment settings
+│   ├── controllers/          # Request handler logic (e.g., auth, media)
+│   ├── middleware/           # Authentication, error handling middleware
+│   ├── models/               # Mongoose schemas for MongoDB
+│   ├── routes/               # Express routes (e.g., /auth, /media)
+│   ├── services/             # External service logic (e.g., APIs, mailers)
+│   ├── utils/                # Utility functions (e.g., token generator)
+│   └── server.js             # Main backend entry point
 │
 └── README.md
+
 
 
 ---
